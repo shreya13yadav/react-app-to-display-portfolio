@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tailwind CSS Demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow p-4">
+      <ul class="flex gap-4">
+        <li><a href="" class="text-blue-500 hover:underline">Home</a></li>
+        <li><a href="" class="text-blue-500 hover:underline">About</a></li>
+        <li><a href="" class="text-blue-500 hover:underline">Contact</a></li>
+        <li><a href="" class="text-blue-500 hover:underline">Footer</a></li>
+      </ul
+    </nav>
+    <!-- Hero Section -->
+    <section class="bg-white p-8">
+      <h1 class="text-4xl font-bold text-center">Welcome to portfolio</h1>
+      <p class="text-lg text-gray-600 text-center">
+        Built your tailwind CSS site.
+      </p>
+      <div class="text-center">
+         <button
+          class="mt-6 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-800"
+        >
+          Get Started
+        </button>
+      </div>
+    </section>
+
+    <!-- Project card -->
+    <section class="max-w-sm mx-auto bg-white shadow-lg rounded-lg p-6">
+      <h2 class="text-xl font-semibold mt-3">Project Title</h2>
+      <p class="text-gray-600 mt-2">A cool project for learning tailwin css</p>
+      <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800">View Project</button>
+    </section>
+
+    <!-- About me -->
+    <section class="flex flex-col md:flex-row items-center p-8 bg-white">
+       <div class="mt-4 md:mt-0  md:ml-6 text-center md:text-left">
+        <h2 class="text-2xl font-bold text-gray-800">About Me</h2>
+        <p class="text-gray-600 mt-3 text-justify">Now is the winter of our discontent
+          Made glorious summer by this sun of York;
+          And all the clouds that lour'd upon our house
+          In the deep bosom of the ocean buried.
+          Now are our brows bound with victorious wreaths;
+          Our bruised arms hung up for monuments;
+          Our stern alarums changed to merry meetings,
+          Our dreadful marches to delightful measures.
+          Grim-visaged war hath smooth'd his wrinkled front;
+          And now, instead of mounting barded steeds
+          To fright the souls of fearful adversaries,
+          He capers nimbly in a lady's chamber
+          To the lascivious pleasing of a lute.
+          But I, that am not shaped for sportive tricks,
+          Nor made to court an amorous looking-glass;
+          I, that am rudely stamp'd, and want love's majesty
+          To strut before a wanton ambling nymph;
+          I, that am curtail'd of this fair proportion,
+          </p>
+          <div class="mt-4">
+            <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">HTML</span>
+            <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">CSS</span>
+            <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">tailwind</span>
+            <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">JS</span>
+          </div>
+       </div>
+    </section>
+
+    <!-- Project section -->
+    <section class="p-8 bg-gray-50">
+       <h2 class="text-3xl  font-bold text-center mb-8">Project</h2>
+       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6 hover:shadow-4xl hover:scale-105 hvoer:translate-y-1 transition transform duration-300">
+            <h3 class="text-xl font-semibold text-gray-800 text-center">E-commerce Website</h3>
+            <p class="text-gray-600 mt-2 text-center">I have created a e-commerce site for the users same like flipkart</p>
+            <div class="mt-4 flex justify-between items-center">
+              <span class="tex-sm text-gray-500">Tailwind CSS</span>
+              <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View</button>
+            </div>
+        </div>
+
+        <!-- Projects card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6 hover:shadow-4xl hover:scale-105 transition transform duration-300">
+          <h3 class="text-xl font-semibold text-gray-800 text-center">E-commerce Website</h3>
+          <p class="text-gray-600 mt-2 text-center">I have created a e-commerce site for the users same like flipkart</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="tex-sm text-gray-500">Tailwind CSS</span>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View</button>
+          </div>
+      </div>
+
+      <!-- Projects card -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6 hover:shadow-xl border-2 hover:border-blue-300 transition duration-300">
+        <h3 class="text-xl font-semibold text-gray-800 text-center">E-commerce Website</h3>
+        <p class="text-gray-600 mt-2 text-center">I have created a e-commerce site for the users same like flipkart</p>
+        <div class="mt-4 flex justify-between items-center">
+          <span class="tex-sm text-gray-500">Tailwind CSS</span>
+          <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View</button>
+        </div>
+    </div>
+
+    <!-- Projects card -->
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6 hover:shadow-xl border-2 hover:border-blue-300 transition duration-300">
+      <h3 class="text-xl font-semibold text-gray-800 text-center">E-commerce Website</h3>
+      <p class="text-gray-600 mt-2 text-center">I have created a e-commerce site for the users same like flipkart</p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="tex-sm text-gray-500">Tailwind CSS</span>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View</button>
+      </div>
+  </div>
+  
+       </div>
+       </section>
+
+
+    <!-- Contact form -->
+    <section class="p-8 bg-white">
+      <h2 class="text-3xl  font-bold text-center mb-8">Contact US</h2>
+      <div class="max-w-md mx-auto">
+         <form class="space-y-4">
+           <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+            <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border" placeholder="Your name" type="text"/>
+           </div>
+           <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+            <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border" placeholder="sample@gmail.com" type="text"/>
+           </div>
+           <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Description</label>
+            <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border" placeholder="Enter your description" type="text"/>
+           </div>
+           <button type="submit" class="w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-400">
+             Send message
+           </button>
+         </form>
+      </div>
+    </section>
+    
+    
+    <!-- Footer code -->
+    <footer class="bg-gray-800 text-white p-8">
+      <div class="text-center">
+          <h3 class="text-lg font-semibold">Connect with Me</h3>
+          <div class="mt-4 space-x-4">
+              <a href="#" class="text-blue-400 hover:underline">LinkedIn</a>
+              <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+              <a href="#" class="text-blue-400 hover:underline">Twitter</a>
+          </div>
+          <p class="mt-4 text-sm text-gray-400">© 2024 Your Name. All rights reserved.</p>
+      </div>
+  </footer>
+  <!-- Button -->
+  <button class="mt-5 bg-blue-500 text-white px-6 py-3 rounded-lg hover:scale-105 transition transform duration-500">Explore Page</button>
+   
+  <!-- Loading button -->
+  <button class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300 disable">
+    <span class="animate-spin inline-block w-4 h-4 border-2 border-white border-r-transparent rounded-full mr-2"></span>
+    Loading...</button>
+
+    <!-- Gradient button -->
+    <button class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:from-blue-800 hover:to-purple-800 transition duration-500">Get Started</button>
+
+
+  </body>
+</html>
+
+<!-- Assigment:Creat a footer using tailwind CSS -->
+​
